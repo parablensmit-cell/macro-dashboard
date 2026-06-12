@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Macro Dashboard</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+  <!-- TICKER SCROLLER -->
+  <div class="ticker-bar">
+    <span class="ticker-label">NEXT MEETINGS</span>
+    <div class="ticker-track">
+      <div class="ticker-content" id="ticker"></div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div>
+        <h1>🌐 Macro Dashboard</h1>
+        <p class="subtitle">G10 Central Bank Rate Tracker & Daily Briefing</p>
+      </div>
+      <div class="header-meta">
+        <span id="last-updated">Loading...</span>
+        <span class="live-dot"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- SUMMARY STATS BAR -->
+    <section class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Cutting</div>
+        <div class="stat-value cut" id="count-cut">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Holding</div>
+        <div class="stat-value hold" id="count-hold">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Hiking</div>
+        <div class="stat-value hike" id="count-hike">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Next Meeting</div>
+        <div class="stat-value neutral" id="next-meeting-bank">—</div>
+      </div>
+    </section>
+
+    <!-- RATE CARDS GRID -->
+    <section class="section-title">
+      <h2>Current Policy Rates</h2>
+      <p>Current rate, consensus forecast & next meeting date for each G10 central bank</p>
+    </section>
+    <section class="cards-grid" id="cards-grid"></section>
+
+    <!-- CHART SECTION -->
+    <section class="section-title">
+      <h2>Rate Comparison</h2>
+      <p>Current vs consensus forecast across all G10 banks</p>
+    </section>
+    <section class="chart-section">
+      <div class="chart-box">
+        <canvas id="barChart"></canvas>
+      </div>
+      <div class="chart-box">
+        <canvas id="directionChart"></canvas>
+      </div>
+    </section>
+
+    <!-- BRIEFING SECTION -->
+    <section class="section-title">
+      <h2>📰 Daily Macro Briefing</h2>
+      <p>AI-generated briefing — updated each morning automatically</p>
+    </section>
+    <section class="briefing-section">
+      <div class="briefing-inner" id="briefing-content">
+        <p class="loading-text">Loading briefing...</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Data sourced from FRED, central bank publications & public releases. AI briefing generated via GitHub Copilot. Not financial advice.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
