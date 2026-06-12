@@ -1,0 +1,125 @@
+{
+  "last_updated": "2026-06-12",
+  "banks": [
+    {
+      "id": "fed",
+      "name": "Federal Reserve",
+      "country": "United States",
+      "flag": "🇺🇸",
+      "current_rate": 4.50,
+      "previous_rate": 4.75,
+      "consensus_next": 4.25,
+      "direction": "hold",
+      "next_meeting": "2026-07-29",
+      "color": "#4A90D9"
+    },
+    {
+      "id": "ecb",
+      "name": "European Central Bank",
+      "country": "Eurozone",
+      "flag": "🇪🇺",
+      "current_rate": 2.40,
+      "previous_rate": 2.65,
+      "consensus_next": 2.15,
+      "direction": "cut",
+      "next_meeting": "2026-07-24",
+      "color": "#E8A838"
+    },
+    {
+      "id": "boe",
+      "name": "Bank of England",
+      "country": "United Kingdom",
+      "flag": "🇬🇧",
+      "current_rate": 4.25,
+      "previous_rate": 4.50,
+      "consensus_next": 4.00,
+      "direction": "cut",
+      "next_meeting": "2026-08-07",
+      "color": "#E84040"
+    },
+    {
+      "id": "boj",
+      "name": "Bank of Japan",
+      "country": "Japan",
+      "flag": "🇯🇵",
+      "current_rate": 0.50,
+      "previous_rate": 0.25,
+      "consensus_next": 0.75,
+      "direction": "hike",
+      "next_meeting": "2026-07-31",
+      "color": "#E84040"
+    },
+    {
+      "id": "rba",
+      "name": "Reserve Bank of Australia",
+      "country": "Australia",
+      "flag": "🇦🇺",
+      "current_rate": 3.85,
+      "previous_rate": 4.10,
+      "consensus_next": 3.60,
+      "direction": "cut",
+      "next_meeting": "2026-08-05",
+      "color": "#F0A500"
+    },
+    {
+      "id": "rbnz",
+      "name": "Reserve Bank of New Zealand",
+      "country": "New Zealand",
+      "flag": "🇳🇿",
+      "current_rate": 3.25,
+      "previous_rate": 3.50,
+      "consensus_next": 3.00,
+      "direction": "cut",
+      "next_meeting": "2026-07-09",
+      "color": "#00A86B"
+    },
+    {
+      "id": "boc",
+      "name": "Bank of Canada",
+      "country": "Canada",
+      "flag": "🇨🇦",
+      "current_rate": 2.75,
+      "previous_rate": 3.00,
+      "consensus_next": 2.75,
+      "direction": "hold",
+      "next_meeting": "2026-07-30",
+      "color": "#E84040"
+    },
+    {
+      "id": "snb",
+      "name": "Swiss National Bank",
+      "country": "Switzerland",
+      "flag": "🇨🇭",
+      "current_rate": 0.25,
+      "previous_rate": 0.50,
+      "consensus_next": 0.00,
+      "direction": "cut",
+      "next_meeting": "2026-09-18",
+      "color": "#E84040"
+    },
+    {
+      "id": "riksbank",
+      "name": "Riksbank",
+      "country": "Sweden",
+      "flag": "🇸🇪",
+      "current_rate": 2.00,
+      "previous_rate": 2.25,
+      "consensus_next": 2.00,
+      "direction": "hold",
+      "next_meeting": "2026-08-19",
+      "color": "#006AA7"
+    },
+    {
+      "id": "norges",
+      "name": "Norges Bank",
+      "country": "Norway",
+      "flag": "🇳🇴",
+      "current_rate": 4.25,
+      "previous_rate": 4.50,
+      "consensus_next": 4.00,
+      "direction": "cut",
+      "next_meeting": "2026-08-13",
+      "color": "#EF2B2D"
+    }
+  ]
+}
